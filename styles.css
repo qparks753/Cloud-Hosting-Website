@@ -52,7 +52,6 @@ img {
       margin: 0 auto;
       overflow: auto;
       padding: 0 37px;
-      overflow: hidden;
 }
 
 .flex{
@@ -139,10 +138,49 @@ text-decoration: none;
 cursor:grab;
 }
 
+/* Information Section */
 
+.container-rows{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    height: 75%;
+    margin: 15px;
+    
+    
+}
 
+.information-title{
+    margin: 0 auto ;
+    padding: 10px;
+    text-align:center;
+    max-width:500px;
+    align-items: center;
 
+}
 
+.information-row-image{
+ object-fit: cover;
+ height: auto;
+ width:30px;
+ border-style: none;
+}
+
+.row-item{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:7px;
+ padding: 3px;
+ font-size: 16px;
+
+}
+
+.row-name{
+    margin: 7px;
+    padding:3px;
+    font-size: 22px;
+}
 
 
 
