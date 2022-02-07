@@ -139,6 +139,9 @@ cursor:grab;
 }
 
 /* Information Section */
+.information{
+    margin: 50px;
+}
 
 .container-rows{
     display: flex;
@@ -182,6 +185,31 @@ cursor:grab;
     font-size: 22px;
 }
 
+/* Supported Languages*/
 
+.languages-main .flex {
+    flex-wrap: wrap;
+  }
+  
+  .languages-main .languages {
+    text-align: center;
+    margin: 19px 11px 41px;
+    transition: transform 0.2s ease-in;
+  }
+  
+  .languages-main .languages h4 {
+    font-size: 21px;
+    margin-bottom: 11px;
+  }
+  
+.languages-main .languages:hover {
+    transform: translateY(-16px);
+}
 
-
+.text-main{
+    text-align: center;
+    padding: 20px;
+}
+.languages-main{
+    background-color: lightsteelblue;
+}
