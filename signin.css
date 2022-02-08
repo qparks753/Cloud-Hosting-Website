@@ -77,80 +77,105 @@ img {
     justify-content: space-between;
 }
 
-.docs-image-container {
-    background-image: url("Images/laptop.png");
-    min-height: 400px;
-    max-height: 525px;
-    width: 800px;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+/*sign in form*/
 
-.bg-image1 {
-    display: flex;
-    justify-content: center;
+form {
+    border: 3px solid #f1f1f1;
 }
 
 
-/*Box*/
-.cards {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-
-
-.img-docs-second {
-    height: 30px;
-    width: 30px;
-    margin-top: 20px;
-}
-
-.img-docs-second:hover {
-    transform: scale(1.3);
-}
-
-
-.docs-container {
-    margin: 20px 10px 20px;
-    background-color: rgb(132, 161, 215);
-    height: 200px;
-    text-align: center;
-    align-content: center;
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
     border-radius: 5px;
-
+}
+b{
+    color: rgb(0, 106, 255);
 }
 
 
-.card-container-requirements {
-    margin-top: 20px;
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 24px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
 }
 
-.requirements-c{
-background-color: #fff;
-color: #333;
-border-radius: 10px;
-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-padding: 20px;
-margin: 20px;
+button:hover {
+    opacity: 0.8;
+}
+.container-sign{
+    margin: 0 auto;
 }
 
-req ,pre {
-  background: rgb(132, 161, 215);
-  color: #fff;
-  padding: 10px;
+
+
+.signin-google {
+    width: auto;
+    padding: 12px 19px;
+    background-color: #f05d52;
 }
 
-/*Footer*/
+
+.imgcontainer {
+    text-align: center;
+    margin: 25px 0 13px 0;
+}
 
 
+img.avatar {
+    width: 38%;
+    border-radius: 50%;
+}
+
+
+.container-sign {
+    padding: 16px;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.sign-form{
+ max-width: 500px;
+ margin: 0 auto;
+ margin-top: 60px;
+ background-color: lightgray;
+ border-color: lightsteelblue;
+ border-radius: 7px;
+ margin-bottom: 60px;
+    
+}
+
+.psw{
+    margin:10px
+}
+
+/*footer*/
 .footer .social a {
     margin: 0 10px;
 }
@@ -190,4 +215,3 @@ req ,pre {
 .fab{
     margin:10px;
 }
-
