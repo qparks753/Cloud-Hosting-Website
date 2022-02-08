@@ -1,6 +1,5 @@
 
 
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -212,4 +211,92 @@ cursor:grab;
 }
 .languages-main{
     background-color: lightsteelblue;
+}
+/* Review and Learn More */
+.container-review {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1px;
+    background-color: black;
+}
+  
+.review, .learn {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    line-height: 1;
+    font-family: 'lato', Helvetica;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: transparent;
+}
+.image-review{
+    border-radius: 50%;
+    height: 10em;
+}
+.image-title, .text-title{
+    font-size: 22px;
+    margin:10px;
+}
+.image-p, .text-title2{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+    padding:15px;
+}
+
+.text-button{
+    text-align: center;
+    width: 125px;
+    height: 55px;
+    font-size: 20px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+}
+/* Footer */ 
+
+.footer .social a {
+    margin: 0 10px;
+}
+  
+.fa-github:hover {
+    color: #000000;
+}
+  
+.fa-facebook:hover {
+    color: #1b74ea;
+}
+  
+.fa-instagram:hover {
+    color: #ba308c;
+}
+  
+.fa-twitter:hover {
+    color: #1998e6;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    color: white;
+}
+.footer-info{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+  
+#social-footer{
+    align-items:center;
+}
+.fab{
+    margin:10px;
 }

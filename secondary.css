@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+  
+ul {
+    list-style-type: none;
+}
+  
+a {
+    text-decoration: none;
+    color: #333;
+}
+  
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+  
+p {
+    margin: 10px 0;
+}
+  
+img {
+    width: 100%;
+}
+
+  
+  /* Navbar */
+.navbar {
+    background-color: #047aed;
+    color: #fff;
+    height: 70px;
+    
+}
+.container{
+      max-width: 1110px;
+      margin: 0 auto;
+      overflow: auto;
+      padding: 0 37px;
+}
+
+.flex{
+      display: flex;
+      justify-content: center ;
+      align-items: center;
+      height: 100%;
+}
+  
+.navbar ul {
+    display: flex;
+}
+  
+.navbar a {
+    color: #fff;
+    padding: 12px;
+    margin: 0 6px;
+}
+  
+.navbar a:hover {
+    border-bottom: 3px #fff solid;
+}
+  
+.navbar .flex {
+    justify-content: space-between;
+}
+
+/*Features-image1 with overlaying image*/
+.features-image1{
+background-image: url(Images/server.jpg);
+min-height: 300px;
+max-height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.features-title1, .features-title2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.features-title2{
+    font-size: 22px;
+    margin-top: 10px;
+}
+/* Pricing section*/ 
+
+* {
+    box-sizing: border-box;
+}
+.price-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 15px;
+}
+  
+.columns {
+    float: left;
+    /*width: 33.3%;*/ width: 250px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    
+}
+  
+  
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+  
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+  
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+    border-radius: 3px;
+}
+  
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    text-align: center;
+}
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+    border-radius: 3px;
+}
+  
+.button-features {
+    background-color: #0f94c9;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+.button-features:hover{
+  box-shadow: darkgray;
+  background-color:rgb(10, 215, 41)
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+      width: 75%;
+    }
+}
+
+
+
+/*Last Feature Section*/
+
+.last-feature-section{
+    background-color: rgb(222, 222, 222);
+    height: 800px;
+    display:flex;
+    justify-content: center;
+}
+  .img-f{
+      height:60px;
+  }
+
+  .last-feature-container{
+      width:60%
+  }
+  .break-column {
+    flex-basis: 100%;
+    width: 0;
+  }
+
+  .column1{
+      margin-top:20px;
+      border-radius: 5px;
+      background-color: rgb(133, 125, 125);
+      text-align: center;
+  }
+
+  /* Footer */
+  .footer .social a {
+    margin: 0 10px;
+}
+  
+.fa-github:hover {
+    color: #000000;
+}
+  
+.fa-facebook:hover {
+    color: #1b74ea;
+}
+  
+.fa-instagram:hover {
+    color: #ba308c;
+}
+  
+.fa-twitter:hover {
+    color: #1998e6;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    color: white;
+}
+.footer-info{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+  
+#social-footer{
+    align-items:center;
+}
+.fab{
+    margin:10px;
+}
